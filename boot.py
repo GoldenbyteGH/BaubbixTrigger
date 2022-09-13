@@ -1,10 +1,9 @@
+#Micropython search 4 boot.py on boot
 #Ref. https://boneskull.com/micropython-on-esp32-part-1/
-
-#trigger Baubbix on motion detection
 
 from machine import ADC,Pin
 from time import sleep
-from micro-baubbix import start_bark_micropython
+from micro-baubbix import start_bark_micropython            #trigger Baubbix on motion detection
 
 def connect():
     import network
